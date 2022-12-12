@@ -1,7 +1,7 @@
-
+import { useState,useEffect } from "react"
 
 const useFetch = ( url ) => {
-  const [state, setState] = uSeState({
+  const [state, setState] = useState({
     data:null,
     isLoading: true,
     hasError:null,
@@ -26,7 +26,7 @@ const useFetch = ( url ) => {
 
   useEffect(() => {
     getFetch
-  }, [url]) //cada vez que el url cambie entonces se va a volver a disparar
+  }, [url]) //cada vez que el url cambie entonces se va a volver a disparar, si es el mismo enytonces no va a hacer nada
   
 
   return {
