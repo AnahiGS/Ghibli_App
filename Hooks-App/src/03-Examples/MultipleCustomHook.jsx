@@ -17,8 +17,7 @@ const MultipleCustomHook = () => {
       {
         isLoading
           ? <LoadingQuote/>
-          : <Quote author={author} quote={quote}/>  
-          
+          : <Quote author={author} quote={quote}/>   
       }
 
       <button className='btn btn-primary' 
