@@ -1,4 +1,4 @@
-se usa cuando tenemos un objeto complejo y queremos hacerle algunos cambios
+//se usa cuando tenemos un objeto complejo y queremos hacerle algunos cambios
 
 const initialState = [{
   id:1,
