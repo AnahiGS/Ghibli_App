@@ -4,7 +4,7 @@ import AboutPage from './AboutPage'
 import { HomePage } from './HomePage'
 import LoginPage from './LoginPage'
 import Navbar from './Navbar'
-
+import {UserProvider} from './context/UserProvider'
 
 const MainApp = () => {
   return (
